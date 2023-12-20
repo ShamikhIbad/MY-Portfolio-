@@ -7,56 +7,264 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+      <nav class="nav">
             <div id="logo">
                 <p>Shamikh Ibad Kiyani</p>
             </div>
-            
+              
               <ul  id="nav-content">
-                <li><a href=""></a>About</li>
-                <li><a href=""></a>Experience</li>
-                <li><a href=""></a>Projects</li>
-                <li><a href=""></a>Contact</li>
+                <li ><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#ContactMe">Contact</a></li>
               </ul>
            
         </nav>
+       </header>
 
-     <div id="Profile">
-        
-       <div  id="pic">
-         <img src="FB_IMG_1671192407056 (1).jpg" alt="image"> 
+
+     <section id="Profile">
+         <div  id="pic">
+         <img src="pics/DSC_2347.png" alt="image"> 
          </div>
 
          <div id="pic-side-text">
 
             <p id="prof-p-1">Hello, I'm</p>
 
-            <h1>Shamikh Ibad Kiyani</h1>
+            <h1>Shamikh</h1>
 
-            <p id="prof-p-2">Web Developer</p>
+            <p id="prof-p-2">Frontend Developer</p>
 
             <div id="profile-button">
                 <button class="btn prof-btn-1">Download CV</button>
-                <button class="btn  prof-btn-2">Contact info</button>
+                <button class="btn  prof-btn-2" onclick="location.href='./#ContactMe'">Contact info</button>
             </div>
 
             <div id="profile-socials">
-               <img src="" alt="My-leetcode"> 
-               <img src="" alt="My-github">
+               <img src="pics/leetcode.png"
+                alt="My-leetcode"
+                onclick="location.href='https://leetcode.com/ShamikhIbadKiyani/'"/> 
+
+               <img src="pics/github.png"
+                alt="My-github"
+                 onclick="location.href='https://github.com/ShamikhIbad'"/>
             </div>
          </div>
 
-     </div>
-    </header>
-    <main>
-        <div>
-            <p>this is added</p>
-        </div>
-    </main>
-    <footer>
+     </section>
+   
+ <section id="About">
+   <p class="firstLine">Get To know More</p>
+   <h1 class="firstHeader">About Me</h1>
+   <div id="AboutMeParentCon">
 
-    </footer>
+    <div id="childConLeft">
+      <img src="pics/DSC_2345.JPG" alt="MyPicture">
+    </div>
+
+
+    <div id="childConRight">
+      <div id="childConRightAllContent">
+        <div class="details-rightCon">
+          <img src="pics/experience.png" alt="Exp.pic" class="icon">
+          <h3>Experience</h3>
+          <p>
+            1+ Year
+            <br>
+            Frontend Development
+          </p>
+        </div>
+
+
+        <div class="details-rightCon">
+          <img src="pics/education.png" alt="edu.pic" class="icon">
+          <h3>Education</h3>
+          <p>
+            FSc
+            <br>
+            Pre Engineering
+          </p>
+        </div>
+      </div>
+      <p id="conRightParagraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure blanditiis at totam ducimus porro vitae consequatur aut, alias voluptates maxime. Deleniti aliquid ullam quasi amet, dicta aspernatur ducimus laborum.</p> 
+    </div>
+   </div>
+
+  <img src="pics/arrow.png" alt="arrow pic" class="icon arrow" onclick="location.href='./#Experience'">
+
+   </section>
+
+
+
+
+<section id="Experience">
+    <p class="firstLine">Explore My</p>
+    <h1 class="firstHeader">Experience</h1>
+
+    <div id="ExperienceContent">
+        <div class="ExpContentBox">
+           <h2>Frontend Development</h2>
+           <div class="articleContainer">
+           <article>
+          <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon">
+          <div>
+          <h3>HTML</h3>
+          <p>Experienced</p>
+          </div>
+           </article>
+
+           <article>
+            <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon">
+            <div>
+            <h3>CSS</h3>
+            <p>Experienced</p>
+            </div>
+           </article>
+           
+           <article>
+            <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon">
+            <div>
+            <h3>JavaScript</h3>
+            <p>Experienced</p>
+            </div>
+           </article>
+          
+           <article>
+            <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon">
+            <div>
+            <h3>Java</h3>
+            <p>Experienced</p>
+            </div>
+           </article>
+
+            <article>
+            <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon">
+            <div>
+            <h3>Git</h3>
+            <p>Experienced</p>
+            </div>
+         </article>
+
+            </div>
+        </div>
+   
+        <div class="ExpContentBox"> 
+         <h2>More Skills</h2>
+      <div class="articleContainer">
+
+        
+        
+         <article>
+            <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon">
+            <div>
+            <h3>Cinematic Shorts</h3>
+            <p>Medium</p>
+            </div>
+         </article>
+        
+         <article>
+            <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon">
+            <div>
+            <h3>Vedio Editing</h3>
+            <p>Medium</p>
+            </div>
+         </article>
+        
+         <article>
+            <img src="pics/checkmark.png" alt="checkmarkIcon" class="icon"> 
+            <div>
+            <h3>Content Writing</h3>
+            <p>Medium</p>
+            </div>
+         </article>
+        </div>
+        </div>
+    </div>
+    <img src="pics/arrow.png" alt="arrow.pic" class="arrow icon" onclick="location.href='./#Projects'">
+
+</section>
+
+
+
+
+
+<section id="Projects">
+    <p class="firstLine">Browse My Recent</p>
+    <h1 class="firstHeader"> Projects</h1>
+
+
+     <div id="projectBoxContainer">
+    <div  class="projectBox">
+      <div class="ProjectImg">
+    <img src="pics/pngwing.com.png" alt="Project 1 pic"></div>
+    <p>Project 1</p>
+    <div class="projectButtons">
+      <button>Github</button>
+      <button>Live Demo</button>
+    </div>
+    </div>
+    <div  class="projectBox">
+      <div class="ProjectImg">
+    <img src="pics/pngwing.com (1).png" alt="Project 2 pic"></div>
+    <p>Project 2</p>
+    <div class="projectButtons">
+      <button>Github</button>
+      <button>Live Demo</button>
+    </div>
+    </div>
+    <div  class="projectBox">
+      <div class="ProjectImg">
+    <img src="pics/pngwing.com (2).png" alt="Project 3 pic"></div>
+    <p>Project 3</p>
+    <div class="projectButtons">
+      <button onclick="location.href='https://github.com/ShamikhIbad/TicTacToe'">Github</button>
+      <button>Live Demo</button>
+    </div>
+    </div>
+
+</div>
+
+<img src="pics/arrow.png" alt="arrow.pic" class="arrow icon" onclick="location.href='./#ContactMe'">
+
+</section>
+
+<section id="ContactMe">
+<div id="ContactMeContent">
+<p class="firstLine">Get In Touch</p>
+<h1 class="firstHeader">Contact Me</h1>
+<div id="ContactMeContainer">
+  <div class="ContactMelinks">
+   <img src="pics/email.png" alt="emailLogo" class="icon contactIcon">
+  <a href="mailto:shamikhibad3@gmail.com" >shamikhibad3@gmail.com</a>
+  </div>
+  <div class="ContactMelinks">
+    <img src="pics/linkedin.png" alt="linkedin" class="icon linkedinIcon">
+   <a href="" >linkedin</a>
+  </div>
+
+</div>
+</div>
+</section>
+<footer>
+<nav>
+     <ul  id="nav-content">
+      <li><a href="#About">About</a></li>
+      <li><a href="#Experience">Experience</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#ContactMe">Contact</a></li>
+    </ul>
+ 
+</nav>
+ <div id="CopyRight">
+  <p>Copyright © 2024 Shamikh Ibad Kiyani . All Rights Reserved</p>
+ </div>
+
+
+</footer>
+
+   
     <link rel="stylesheet" href="script.js">
 </body>
 </html>

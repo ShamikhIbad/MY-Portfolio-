@@ -1,7 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 *{
 margin: 0%;
 padding: 0px;
-font-family: sans-serif;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+
 }
 
 nav{
@@ -13,36 +18,46 @@ nav{
 }
 
 #logo{
-    font-size: 32px;
+    font-size: 40px;
 
 }
 #nav-content{
     list-style: none;
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-content :hover{
+    color: grey;
+
 }
 
 #Profile{
-    height: 80vh;
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 4vh;
-    margin: 0px 10rem 0px 10rem;
     gap: 5rem;
+    
 }
 
 #pic{
    display: flex;
 }
-img{
-     width: 400px;
-    height: 400px;
+ #pic img{
+   background-color: rgb(236, 236, 236);
+     width: 500px;
+    height: 500px;
     overflow-clip-margin: content-box;
      border-radius: 50%;
 }
+
 #prof-p-1{
     font-size: 20px;
     color: #555555;
@@ -53,6 +68,7 @@ img{
 #pic-side-text h1{
     font-size: 45px;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 #prof-p-2{
@@ -72,17 +88,229 @@ gap: 1rem;
 .btn{
     font-weight: 500;
     font-size: 17px;
-    transition: all 300ms ease;
+    transition: all 400ms ease;
     border: rgb(53, 53, 53) 0.1rem solid;
     padding: 1rem;
     border-radius: 2rem;
+    cursor: pointer;
  
 }
 .prof-btn-1{
     
     background: none;
 }
+.prof-btn-1:hover{
+    background-color: #353535;
+    color: white;
+}
 .prof-btn-2{
     background-color: #353535;
     color: white;
+}
+.prof-btn-2:hover{
+    background: none;
+    color: #353535;
+}
+#profile-socials{
+height: 32px;
+width: 440px;
+margin-top: 18px;
+display: flex;
+justify-content: center;
+gap: 2rem;
+}
+#profile-socials img{
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+
+                                  /*   MAIN  */ 
+
+section{
+    height: 96vh;
+    padding-top: 4vh;
+    margin: 0rem 10rem;
+     box-sizing: border-box;
+    min-height: fit-content;
+}
+
+
+.firstLine{
+    color: #555555;
+    font-size: 1.3rem;
+   text-align: center;
+}
+.firstHeader{
+    font-size: 4rem;
+   text-align: center;
+}
+#AboutMeParentCon{
+   display: flex; 
+   gap: 4rem;
+   margin: 32px 0px;
+}
+
+img{
+    overflow: clip;
+     overflow-clip-margin: content-box;
+}
+#childConLeft img{
+    height: 550px;
+    width: 430px;
+    border-radius: 2rem;
+}
+#childConRightAllContent{
+    display: flex; 
+    gap: 2rem;
+     margin: 92px 0px;
+}
+
+
+.details-rightCon{
+    padding: 1.5rem;    
+    flex: 1;
+    text-align: center;    
+    border: rgb(53, 53, 53) 0.1rem solid  ;     
+    border-radius: 2rem; 
+    border-color:rgb(163, 163, 163) ;
+}
+.details-rightCon h3{
+    font-size: 2rem;
+}
+
+.icon{
+    height: 38px;
+    width: 38px;
+    cursor: pointer; 
+}
+
+.arrow{
+   
+    position: absolute;
+    right: 5rem;
+}
+
+
+#ExperienceContent{
+    display: flex;
+    gap: 2rem;
+    margin-top: 42px;
+}
+.ExpContentBox{
+    padding: 2.5rem;
+    flex: 1;
+    background-color: white;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    border-color: rgb(163, 163, 163);
+}
+.ExpContentBox h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0px 0px 32px;
+    color: #555555;
+
+}
+.articleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3.5rem;
+    text-align: initial;
+    justify-content: space-around;
+}
+
+article{
+   display: flex;
+  justify-content: space-around;
+   gap: 0.5rem;
+
+}
+article h3{
+    font-size: 1.6rem;
+}
+
+
+#projectBoxContainer{
+    display: flex;
+    gap: 3rem;
+    margin: 3rem 0rem;
+}
+.projectBox{
+    padding: 1.5rem;
+    flex: 1;
+    border:rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    background-color:rgb(250, 250, 250) ;
+}
+.ProjectImg{
+    display: flex;
+    text-align: initial;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2.5rem;
+}
+.projectBox img{
+    width: 90%;
+    height: 90%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.projectBox p{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+   margin: 34px 0px;
+}
+.projectButtons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.projectButtons button{
+    width: 8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border:rgb(53, 53, 53) 0.1rem solid ;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#ContactMe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+#ContactMeContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border:rgb(53, 53, 53) 0.1rem solid ;
+    border-color: rgb(163, 163, 163);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2rem 60vh;
+}
+.ContactMelinks{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
+    
+}
+
+.ContactMelinks a{
+    text-decoration: none;
+}
+
+footer{
+    height: 26vh;
+    text-align: center;
+    font-size: 1.3rem;
 }
