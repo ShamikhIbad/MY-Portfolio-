@@ -1,0 +1,104 @@
+@media screen  and (max-width:1200px){
+    .arrow{
+        display: none;
+    }
+    #desktopNav{
+        display: none;
+    }
+    #linesNav{
+        display: flex;
+    }
+
+   #Profile{
+      display: block;
+      margin-bottom: 6rem;
+
+   }
+   #pic{
+    justify-content: center;
+   }
+   #pic img{
+    height: 280px;
+    width: 280px;
+   }
+   #pic-side-text{
+    margin-top: 1rem;
+    justify-content: center;
+   }
+   #prof-p-1{
+    font-size: 1rem;
+    margin:0px;
+   }
+   #prof-p-2{
+    font-size: 1.75rem;
+   }
+   .logo{
+    font-size: 2rem;
+   }
+
+
+
+   .firstLine{
+    font-size: 1rem;
+   }
+   .firstHeader{
+    font-size: 3rem;
+   }
+   section{
+     margin: 0 5%;
+   }
+   .icon{
+    height: 2rem;
+    width: 2rem;
+   }
+  
+   #AboutMeCon{
+    margin-top: 0px;
+    display: block;
+   }
+   #AboutMeConLeft{
+    display: flex;
+    justify-content: center;
+}
+    #AboutMeConLeft img{
+        height: 250px;
+        width: 160px;
+    }
+    #AboutMeConRightAllContent{
+        margin: 2rem 0rem;
+    } 
+    .details-AboutMeConRight h3{
+    font-size: 1.5rem;
+   }
+   section,#AboutMeCon{
+    height: fit-content;
+   }
+    #ExperienceContent{
+        margin-top: 0px;
+    }
+    .ExpContentBox h2{
+        font-size: 2rem;
+    }
+    article h3{
+        font-size: 1rem;
+    }
+    #projectBoxContainer{
+      display: block;
+    }
+    .projectButtons button{
+        width: 7rem;
+font-size: 0.8rem;
+    }
+    .projectBox p{
+      margin: 10px 0px;
+    }
+    .projectBox{
+        margin-bottom: 2rem;
+    }
+    #nav-content{
+        font-size: 1.5rem;
+    }
+ footer{
+    font-size: 1rem;
+ }
+}
