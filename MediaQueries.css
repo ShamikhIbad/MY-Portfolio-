@@ -77,13 +77,16 @@
         margin-top: 0px;
     }
     .ExpContentBox h2{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     article h3{
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+    article p{
+        font-size: 0.7rem;
     }
     #projectBoxContainer{
-      display: block;
+      flex-wrap: wrap;
     }
     .projectButtons button{
         width: 7rem;
@@ -101,4 +104,79 @@ font-size: 0.8rem;
  footer{
     font-size: 1rem;
  }
+ .ContactMelinks{
+    font-size: 1.3rem;
+ }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  
+    .logo{
+    font-size: 1.5rem;
+}
+.linesIcon{
+    height: 18px;
+    width: 25px;
+}
+
+#pic img{
+    width: auto;
+    height: 45vw;
+}
+#Profile {
+    height: 83vh;
+    margin-bottom: 0px;
+}
+#AboutMeConLeft img {
+   width: auto;
+   height: 45vw;
+}
+#pic-side-text h1 {
+    font-size: 2rem;
+}
+#prof-p-2 {
+    font-size: 1.5rem;
+}
+.firstHeader{
+    font-size: 2.5rem;
+}
+#profile-button ,
+#AboutMeConRightAllContent ,
+#ExperienceContent,
+#projectBoxContainer ,
+#ContactMeContainer{
+    flex-wrap: wrap;
+}
+#ExperienceContent{
+    margin-bottom: 3rem;
+}
+.projectBox p{
+    font-size: 1.5rem;
+}
+#projectBoxContainer{
+    margin: 0rem;
+    gap: 0rem;
+}
+.ContactMelinks{
+    font-size: 1rem;
+}
+#nav-content{
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+}
+footer nav{
+    margin-bottom: 2rem;
+}
+#CopyRight p{
+    font-size: 0.8rem;
+}
 }
